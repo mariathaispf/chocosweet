@@ -176,6 +176,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		text-align: justify;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2698,6 +2699,8 @@ input, select, textarea {
 		font-size: 1.25em;
 		margin-top: -0.5em;
 		line-height: 1.5em;
+		margin-left: 300px;
+		margin-right: 300px;
 	}
 
 	header h3 + p {
@@ -3137,7 +3140,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #fbfbfb;
+			background-color: #ffc9e7;
 			color: #999999;
 		}
 
@@ -3334,7 +3337,8 @@ input, select, textarea {
 			}
 
 			.wrapper.style2 h1, .wrapper.style2 h2, .wrapper.style2 h3, .wrapper.style2 h4, .wrapper.style2 h5, .wrapper.style2 h6 {
-				color: #828282;
+				color: #df48a5;
+				font-weight: bolder;
 			}
 
 			.wrapper.style2 blockquote {
@@ -4122,6 +4126,7 @@ input, select, textarea {
 
 		#footer .copyright {
 			font-size: 0.8em;
+			margin-left: 300px;
 		}
 
 		@media screen and (max-width: 980px) {
